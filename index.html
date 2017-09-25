@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		GIPHY API
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div id="hbutton">
+                <button type="button" class="btn btn-info animal" data-name="Captain">Captain America</button>
+                <button type="button" class="btn btn-info animal" data-name="Hulk">Hulk</button>
+                <button type="button" class="btn btn-info animal" data-name="Hawk">Hawk Eye</button>
+                <button type="button" class="btn btn-info animal" data-name="Black">Black Widow</button>
+                <button type="button" class="btn btn-info animal" data-name="Loki">Loki</button>
+                <button type="button" class="btn btn-info animal" data-name="Thor">Thor</button>
+                <button type="button" class="btn btn-info animal" data-name="Iron">Iron Man</button>
+                <button type="button" class="btn btn-info animal" data-name="Wolverine">Wolverine</button>
+                <button type="button" class="btn btn-info animal" data-name="DeadDog">Dead Pool</button>
+                <button type="button" class="btn btn-info animal" data-name="Ant">Ant-Man</button>
+                <button type="button" class="btn btn-info animal" data-name="Cyclops">Cyclops</button>
+                <button type="button" class="btn btn-info animal" data-name="Jean">Jean Grey</button>
+                <button type="button" class="btn btn-info animal" data-name="CableDog">Cable</button>
+                <button type="button" class="btn btn-info animal" data-name="Gambit">Gambit</button>
+            </div>
+
+            <div class="container" class="text-center">
+                    <div class="Add" class="text-center">
+                        <h1>Add Comic Book Character:</h1>
+                        <form id="gifyForm" class="text-center">
+                            <label for="gif-input"></label>
+                            <input type="text" value="" id="gif-input"><br><br>
+                            <input type="submit" name="Button" id="addBtn" class="btn btn-info">
+                        </form>
+                    </div>
+                </div>
+
+        </div>
+        <div class="container" class="text-center">
+            <div id="gifs" class="text-center"></div>
+        </div>
+
+        
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
